@@ -3,7 +3,7 @@ import axios from "axios";
 // const Base_URI="http://localhost:9898/toursandtravels/api/v1";
 const Base_URI="https://tourismbackend-production.up.railway.app/toursandtravels/api/v1"
 // http://localhost:9898/toursandtravels/api/v1/state/Karnataka
-const base_URI2="http://localhost:9898";
+const base_URI2="https://tourismbackend-production.up.railway.app";
 
 class ToursandTravelsServices
 {
