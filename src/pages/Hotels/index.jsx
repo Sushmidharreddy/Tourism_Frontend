@@ -16,7 +16,7 @@ const Hotels = () => {
   const [selectedCities, setSelectedCities] = useState([]);
   const [selectedRatings, setSelectedRatings] = useState([]);
   const [selectedHotel, setSelectedHotel] = useState(null);
-  const [selectedState, setSelectedState] = useState('KS');
+  const [selectedState, setSelectedState] = useState('Kerala');
   const [currentPage, setCurrentPage] = useState(1); // Added pagination state
   const hotelsPerPage = 9; // Number of hotels per page
 
@@ -100,20 +100,20 @@ const Hotels = () => {
                 onChange={(e) => setSelectedState(e.target.value)}
                 className='px-4 py-2 rounded bg-white text-gray-900 shadow-sm focus:outline-none focus:ring-2 focus:ring-gray-400'
               >
-                <option value='KS'>Karnataka</option>
+                <option value='Andra Pradesh'>Andra Pradesh</option>
+                {/* <option value='Assam'>Assam</option>
+                <option value='Bihar'> Bihar</option> */}
+                <option value='Chhattisgarh'>Chhattisgarh</option>
+                <option value='Gujarat'>Gujarat</option>
+                <option value='Haryana'>Haryana</option>
+                <option value='Himachal Pradesh'>Himachal Pradesh</option>
+                <option value='Kerala'>Kerala</option>
+                <option value='Karnataka'>Karnataka</option>
+                <option value='Telangana'>Telangana</option>
+                <option value='Uttarakhand'>Uttarakhand</option>
                 <option value='Tripura'>Tripura</option>
-                <option value='Andra Pradesh'> Andra Pradesh</option>
-                <option value='Assam'>Assam</option>
-                <option value=''></option>
-                <option value=''></option>
-                <option value=''></option>
-                <option value=''></option>
-                <option value=''></option>
-                <option value=''></option>
-                <option value=''></option>
-                <option value=''></option>
-                <option value=''></option>
-                <option value=''></option>
+                <option value='Jammu and Kashmir'>Jammu and Kashmir</option>
+                <option value='Madhya Pradesh'>Madhya Pradesh</option>
                 
                 
                 {/* {/ Add more options for other states /} */}
